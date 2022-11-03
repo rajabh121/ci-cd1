@@ -24,7 +24,7 @@ def connect_tcp_socket() -> sqlalchemy.engine.base.Engine:
     # secure - consider a more secure solution such as
     # Cloud Secret Manager (https://cloud.google.com/secret-manager) to help
     # keep secrets safe.
-    db_host = "10.116.137.1"
+    db_host = "10.116.137.2"
     db_user = "root"
     db_pass = "abhishek"
     db_name = "abhishek"
@@ -49,6 +49,6 @@ res=connect_tcp_socket()
 print(res)
 
 query = """
-CREATE DATABASE testDB;
+CREATE DATABASE testDB2;
 """
 res.execute(query)
