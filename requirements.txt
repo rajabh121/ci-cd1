@@ -1,0 +1,19 @@
+#flask==2.1.1
+sqlalchemy
+#cryptography
+cloud-sql-python-connector==0.6.0
+
+# For website servings
+#gunicorn
+
+# For unit testing
+#pytest
+
+# For database connections
+
+#pg8000==1.24.1 # for PostgreSQL
+
+pymysql          # for MySQL
+
+#python-tds       # for MSSQL
+#sqlalchemy-pytds # for MSSQL
